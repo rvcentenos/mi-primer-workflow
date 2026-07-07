@@ -13,9 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Verificar formato
-        run: |
-          echo "✅ Revisando formato del código..."
-          echo "Sin errores de lint"
+        run: exit 1
 
   # ── 2do job: pruebas (espera a que lint pase) ────────────────
   test:
