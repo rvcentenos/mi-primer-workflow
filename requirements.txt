@@ -1,8 +1,6 @@
 certifi==2026.6.17
 charset-normalizer==3.4.9
 idna==3.18
+pytest==8.2.2
 requests==2.34.2
 urllib3==2.7.0
-pytest==8.2.2
-flake8==7.1.0
-black==24.4.2
